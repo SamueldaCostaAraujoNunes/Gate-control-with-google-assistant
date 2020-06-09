@@ -1,38 +1,38 @@
 # Gate control with Google Assistant and Sinric :door:
 ## Project description
-<p align="justify"> A project for the Arduino Leonardo, interested in automating the rotation of the orientation of the computer screen, using an MPU-6050 gyroscope. </p>
-
+<p align="justify"> A project for Nodemcu, interested in automating the control of a gate, using Sinric and Google Assistant / Home. </p>
 
 ### Motivation:
-When I started programming, I felt the need for a secondary monitor to help me develop programs. Today, I can no longer live using just one monitor. Generally, I use one monitor vertically (where the IDE is located, texts, articles, documentation), and the other is free for auxiliary needs. In my spare time, I rotate the monitor, and use it to watch different media. Over time, I started to see how repetitive the process of changing the screen orientation is. So, I decided to make things a little more automated :sunglasses:.
+I have always wanted to automate functions and devices in my home, to make their control more dynamic and simple. I found several alternatives on the internet, but none met my needs. To bring all my smart devices together on a single platform, to create different scenes and routines. So, I started using Google home to connect all my devices. To connect the devices I made, I used sinric, which assists in the creation of smart devices using ESP8266 cards, although the platform is very useful, there is only one example of a device that supports Google Assistant, and here we are. This is a Sketch for NODEMCU 1.0 v3, which acts to control a gate, making it a little more intelligent.:sunglasses:.
 
 ### What you will need:
- - 1 Arduino from the Leonardo family. (I used the micro pro, but either one works)      
- - 1 GY-521 MPU-6050 sensor      
+ - 1 Nodmcu 1.0 v3.
+ - 2 Polarized capacitors 470uF.
+ - 2 Capacitors 0.1uF.
+ - 1 Voltage regulator LM7805.
+ - 1 Diode 1N4001.
+ - 1 Relay 12v.
+ - 1 Transistor BC547.
+ - 1 Resitor 4.7k OHM.
+ - 1 Gate control board.
 
 ### Schematic 
+
  ![Esquema](https://github.com/SamueldaCostaAraujoNunes/Gate-control-with-google-assistant/blob/master/src/Schematic.png)
  
  
 ### How it works
-An Leonardo arduino will be connected to a gyroscope / accelerometer, and when there is a change in the orientation of the sensor, the arduino will send a keyboard shortcut to the computer to change the direction of the screen.
+The gate control boards generally have a separate door for a button (BOT), a power supply for 12v accessories and indication LEDs to indicate the position of the gate. The circuit simulates a click of a button, opening or closing the gate. These boards also have a 12v output, for extra accessories, such as electromagnetic locks ... In this case, I used it to supply the relay and the Nodemcu board. And I used the LED signal to indicate the status of the gate.
+
+Gate controller board doors :exclamation:
+ ![Saidas](https://github.com/SamueldaCostaAraujoNunes/Gate-control-with-google-assistant/blob/master/src/GateBoard.png)
 
 ### Results
 
-  MPU-6050 sensor in television :exclamation:
-  
- ![Sensor](https://github.com/SamueldaCostaAraujoNunes/Gate-control-with-google-assistant/blob/master/src/GateBoard.png)
- 
-  Arduino Leonardo Pro Micro :exclamation:
-  
- ![Leonardo](https://github.com/SamueldaCostaAraujoNunes/Automatic-monitor-rotation/blob/master/src/leonardo-pro-micro.jpg)
- 
- Results :exclamation:
- 
- ![gif](https://github.com/SamueldaCostaAraujoNunes/Automatic-monitor-rotation/blob/master/src/rotation-gif.gif)
+ Amanhã eu coloco.
  
 ### Used libraries :books:
- - [MPU6050_tockn](https://github.com/tockn/MPU6050_tockn)
+ - [Sinric](https://github.com/kakopappa/sinric)
  
 ### Project status
  > Project status: Always in development :sweat_smile:
