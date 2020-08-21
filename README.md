@@ -31,10 +31,13 @@ Gate controller board doors :exclamation:
 ### Results
 
 How the plate got :exclamation:
+
 ![PlacaProntaGif](https://github.com/SamueldaCostaAraujoNunes/Gate-control-with-google-assistant/blob/master/src/GateVideo.gif)
 
 ![PlacaPronta](https://github.com/SamueldaCostaAraujoNunes/Gate-control-with-google-assistant/blob/master/src/PlacaPronta.png)
+
 How the plate got inside the engine box :exclamation:
+
 ![FotoDaPlaca](https://github.com/SamueldaCostaAraujoNunes/Gate-control-with-google-assistant/blob/master/src/ProntoNoPortao.jpeg)
 
 Opening the gate :exclamation:
