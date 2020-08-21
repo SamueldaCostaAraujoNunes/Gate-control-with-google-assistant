@@ -28,8 +28,15 @@ Gate controller board doors :exclamation:
  ![Saidas](https://github.com/SamueldaCostaAraujoNunes/Gate-control-with-google-assistant/blob/master/src/GateBoard.png)
 
 ### Results
+![PlacaProntaGif](https://github.com/SamueldaCostaAraujoNunes/Gate-control-with-google-assistant/blob/master/src/GateVideo.gif)
 
- Depois eu coloco.
+![PlacaPronta](https://github.com/SamueldaCostaAraujoNunes/Gate-control-with-google-assistant/blob/master/src/PlacaPronta.png)
+
+![FotoDaPlaca](https://github.com/SamueldaCostaAraujoNunes/Gate-control-with-google-assistant/blob/master/src/ProntoNoPortao.jpeg)
+
+![VideoAbrindo](https://github.com/SamueldaCostaAraujoNunes/Gate-control-with-google-assistant/blob/master/src/Abrindo.gif)
+
+![VideoFechando](https://github.com/SamueldaCostaAraujoNunes/Gate-control-with-google-assistant/blob/master/src/Fechando.gif)
  
 ### Used libraries :books:
  - [Sinric](https://github.com/kakopappa/sinric)
