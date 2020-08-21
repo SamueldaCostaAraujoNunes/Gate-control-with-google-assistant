@@ -29,7 +29,7 @@ Gate controller board doors :exclamation:
 
 ### Results
 
- Amanhã eu coloco.
+ Depois eu coloco.
  
 ### Used libraries :books:
  - [Sinric](https://github.com/kakopappa/sinric)
