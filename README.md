@@ -25,21 +25,25 @@ I have always wanted to automate functions and devices in my home, to make their
 The gate control boards generally have a separate door for a button (BOT), a power supply for 12v accessories and indication LEDs to indicate the position of the gate. The circuit simulates a click of a button, opening or closing the gate. These boards also have a 12v output, for extra accessories, such as electromagnetic locks ... In this case, I used it to supply the relay and the Nodemcu board. And I used the LED signal to indicate the status of the gate.
 
 Gate controller board doors :exclamation:
+
  ![Saidas](https://github.com/SamueldaCostaAraujoNunes/Gate-control-with-google-assistant/blob/master/src/GateBoard.png)
 
 ### Results
+
+How the plate got :exclamation:
 ![PlacaProntaGif](https://github.com/SamueldaCostaAraujoNunes/Gate-control-with-google-assistant/blob/master/src/GateVideo.gif)
 
 ![PlacaPronta](https://github.com/SamueldaCostaAraujoNunes/Gate-control-with-google-assistant/blob/master/src/PlacaPronta.png)
-
+How the plate got inside the engine box :exclamation:
 ![FotoDaPlaca](https://github.com/SamueldaCostaAraujoNunes/Gate-control-with-google-assistant/blob/master/src/ProntoNoPortao.jpeg)
 
+Opening the gate :exclamation:
 ![VideoAbrindo](https://github.com/SamueldaCostaAraujoNunes/Gate-control-with-google-assistant/blob/master/src/Abrindo.gif)
-
+Closing the gate :exclamation:
 ![VideoFechando](https://github.com/SamueldaCostaAraujoNunes/Gate-control-with-google-assistant/blob/master/src/Fechando.gif)
  
 ### Used libraries :books:
  - [Sinric](https://github.com/kakopappa/sinric)
  
 ### Project status
- > Project status: Always in development :sweat_smile:
+ > Project status: Complete :sweat_smile:
